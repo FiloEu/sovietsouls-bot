@@ -117,7 +117,8 @@ async def on_message(message):
     if message.content == 'wow':
         await client.send_message(message.channel,'Stop wowing and grab the shovel!!')
     if message.content == 'russia':
-        await client.add_reaction(discord.Reaction(id=222222222222222222222))
+        await client.add_reaction(message, '👍')
+      
 
 
 
