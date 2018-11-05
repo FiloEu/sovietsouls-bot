@@ -117,7 +117,7 @@ async def on_message(message):
     if message.content == 'wow':
         await client.send_message(message.channel,'Stop wowing and grab the shovel!!')
     if message.content == 'russia':
-        await client.add_reaction(message, '👍')
+        await client.add_reaction(message, '\N{THUMBS UP SIGN}')
       
 
 
